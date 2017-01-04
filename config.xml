@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.uacj.armoniainteractiva"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+<plugin name="cordova-plugin-inappbrowser" source="pgb" />
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Armonía Interactiva</name>
+
+    <description>
+        Un ejemplo de cómo sería la página 
+    </description>
+
+    <author email="dario.escobedo@uacj.mx">
+        Dario Escobedo 
+    </author>
+
+<preference name="orientation" value="default" />
+
+</widget>
