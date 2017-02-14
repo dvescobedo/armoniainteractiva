@@ -401,9 +401,9 @@ body {
 }
 
 .modalDialog > div {
-	width: 65%;
+	width: 70%;
 	position: relative;
-	margin: 10% auto;
+	margin: 5% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #616161;
