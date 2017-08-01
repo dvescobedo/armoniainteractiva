@@ -330,8 +330,7 @@
         <p>Las funciones armónicas y los acordes que pueden utilizarse para
           sustituir la triada tónica, subdominante o dominante son:</p>
         <ul>
-          <li><font size="+1">Tónica (I) se sustituye por ...<br>
-            </font></li>
+          <li><font size="+1">Tónica (I)</font></li>
           <ul>
             <li><font size="+1">iii ( o III en menor) en estado fundamental</font></li>
             <li><font size="+1">vi (o VI en menor) en estado fundamental<br>
@@ -340,14 +339,12 @@
         </ul>
         <font size="+1"></font>
         <ul>
-          <li><font size="+1">Subdominante (IV) se sutituye por ...<br>
-            </font></li>
+          <li><font size="+1">Subdominante (IV)</font></li>
           <ul>
             <li><font size="+1">ii<sup>6</sup> (ii°<sup>6</sup> en menor)<br>
               </font></li>
           </ul>
-          <li><font size="+1">Dominante (V) se sustituye por ...<br>
-            </font></li>
+          <li><font size="+1">Dominante (V)</font></li>
           <ul>
             <li><font size="+1">iii<sup>6</sup> (o III+<sup>6</sup> en menor)</font></li>
             <li><font size="+1">vii°<sup>6</sup><br>

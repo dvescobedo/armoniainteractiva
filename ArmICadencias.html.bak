@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Armonía Interactiva</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/lora.css" rel="stylesheet" type="text/css">
+    <link href="css/montserrat.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via  -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+  </head>
+  <body>
+    <div id="header" class="navbar navbar-custom navbar-fixed-top">
+      <div class="navbar-header"> <button class="navbar-toggle collapsed" type="button"
+          data-toggle="collapse" data-target=".navbar-collapse"> <i class="fa fa-bars"></i>
+        </button> <a class="navbar-brand" href="index.html"> Armonía
+          Interactiva </a> </div>
+      <nav class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li> <a href="AppPrincipal.html">Inicio App</a> </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
+              I<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="ArmITriadas.html">Triadas</a></li>
+              <li><a href="ArmINotAcordes.html">Notación de acordes</a></li>
+              <li><a href="Paralelismos.html">Paralelismos Prohibidos</a></li>
+              <li><a href="ArmIProgArm.html">Progresión [I⇆IV]→[V⇆I]</a></li>
+              <li><a href="ArmIInversiones.html">Inversiones</a></li>
+              <li><a href="ArmICadencias.html">Cadencias</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
+              II<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="ArmIIFuncionesArmonicas.html">Funciones Armónicas</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
+              III<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Pendiente</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
+              IV<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Pendiente</a></li>
+            </ul>
+          </li>
+        </ul>
+        &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD </nav>
+      ======= </div>
+    <div class="container"> <br class="">
+      <br class="">
+      <br class="">
+      <br class="">
+      <br class="">
+      <br class="">
+      <h1>Cadencias </h1>
+      <div style="text-align:justify;">
+        <p>Una <b><i>cadencia</i></b> es cuando una progresión musical llega a
+          su finalización. Siempre tiene por objetivo por proveer una pausa en
+          las frases musicales. Son como las diversas puntuaciones dentro de un
+          párrafo escrito; sirven para separar cada idea, o en su caso, cada
+          oración. </p>
+        <p>Así como algunos signos de puntuación son más conclusivos que otros,
+          así también existen cadencias conclusivas y otras suspensivas. Veamos
+          algunas de ellas. </p>
+      </div>
+      <h3>Cadencias Conclusivas </h3>
+      <div style="text-align:justify;">
+        <p>Las cadencias conclusivas tiene por objetivo el concluir una frase
+          musical. Existen tres tipos de cadencias: la <b><i>perfecta, la <b><i>imperfecta</i></b></i></b>
+          y la <b><i>plagal</i></b>. </p>
+      </div>
+      <h4>Cadencia Perfecta </h4>
+      <div style="text-align:justify;">
+        <p>La cadencia <b><i>perfecta</i></b> ocurre cuando se va de un acorde
+          V (dominante) al I (Tónica). Sin embargo, ambos acordes <u>deben
+            estar</u> en estado fundamental, siguiendo un enlace armónico o
+          melódico. Esta cadencia aplica tanto para tonalidades mayores como
+          menores; sólo hay que recordar que el acorde V en las tonalidades
+          menores se alteran para forzar la existencia de la sensible. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj1-1.png"
+          height="auto" width="90%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win1">pulsa aquí</a> </p>
+      </div>
+      <div id="Win1" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmICadenciasEj1.mp4"
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h4>Cadencia imperfecta </h4>
+      <div style="text-align:justify;">
+        <p> La cadencia <b><i>imperfecta</i></b> es similar a la perfecta
+          puesto que ocurre cuando se utiliza un acorde V (dominante) y arriba
+          al I (tónica), sólo que alguno o ambos acordes están en inversión. Por
+          ello no suena tan conclusiva que la perfecta. Ocurre tanto en
+          tonalidades mayores como menores. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj2-1.png"
+          height="auto" width="90%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a> </p>
+      </div>
+      <div id="Win2" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmICadenciasEj2.mp4"
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h4>Cadencia Plagal </h4>
+      <div style="text-align:justify;">
+        <p> Esta cadencia, la cadencia <b><i>plagal</i></b>, se caracteriza por
+          utilizar el acorde IV (subdominante)seguido por el acorde I (tónica).
+          Su sonido es un tanto conclusivo, pero no tanto como la cadencia
+          perfecta o imperfecta. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj3-1.png"
+          height="auto" width="75%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a> </p>
+      </div>
+      <div id="Win3" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin3" title="CloWin3" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmICadenciasEj3.mp4"
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h3>Cadencias suspensivas </h3>
+      <div style="text-align:justify;">
+        <p> Las cadencias suspensiva tienen como objetivo concluir una frase
+          musical, pero dejando una 'puerta' abierta para seguir a otra frase
+          musical. Ninguna de estas cadencias pueden terminar ni concluir
+          definitivamente una pieza musical; no ofrecen un sonido tal. Por ello,
+          se llaman de esta manera. Hay dos de ellas: la <b><i>semicadencia</i></b>
+          ( o cadencia <b><i>media</i></b>) y la cadencia <b><i>rota</i></b>.
+        </p>
+      </div>
+      <h4>Semicadencia </h4>
+      <div style="text-align:justify;">
+        <p> La <b><i>semicadencia</i></b> es ocurre cuando algún acorde
+          anticipa el acorde V (dominante), y esta triada dominante suena
+          suspensiva. El sonido es de crear una tensión que permite seguir a
+          otra frase musical. Su sonido nos da un sentido de resolución, pero
+          nos deja con ganas de seguir escuchando más música. Se siente como una
+          'coma' dentro de una oración escrita. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj4-1.png"
+          height="auto" width="60%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win4">pulsa aquí</a> </p>
+      </div>
+      <div id="Win4" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin4" title="CloWin4" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmICadenciasEj4.mp4"
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h4>Cadencia rota </h4>
+      <div style="text-align:justify;">
+        <p> La cadencia <b><i>rota</i></b> tiene por propoósito el ofrecer una
+          alternativa suspensiva a la cadencia perfecta (o imperfecta). Es
+          decir, ésta ocurre cuando se va de un acorde V (dominante) a un acorde
+          <b><i>vi</i></b> (o <b><i>VI</i></b> en tonalidades menores, ambas
+          conocidas como <b><i>submediante</i></b>. En ambos casos, nos dan un
+          sonido de conclusión porque la nota sensible (3ra de nuestro V) nos
+          crea la expectación de escuchar nuestra nota tónica. Esta nota tónica
+          sí aparece, pero como la 3ra del acorde vi (o VI en menores). </p>
+        <p>Sin embargo, su sonido nos da la impresión de una resolución, pero
+          nos demanda, nos exige seguir hasta llegar a una conclusión. De ahí
+          viene su cualidad suspensiva. </p>
+      </div>
+      <div style="text-align:justify;">
+        <p> Ahora bien, esta cadencia nos va a dar una dolor de cabeza si no es
+          que tomamos en cuenta algunos puntos: <i><u>1</u></i>) involucra el
+          acorde <b><i>vi</i></b> (o <b><i>VI</i></b>), el cual es un acorde
+          que no se supone que vayamos a ver en este semestre; <i><u>2</u></i>)
+          tendríamos que utilizar el enlace melódico para ejecutarlo, parecido
+          al enlace que se usa entre IV y V (o iv y V); <i><u>3</u></i>) si
+          utilizamos el enlace melódico en las tonalidades menores, podríamos
+          mover la nota sensible hacia abajo a una 2da aumentada, lo cual sería
+          ir en contra de las reglas que ya habíamos anticipado; <i><u>4</u></i>)
+          si escribimos nuestra sensible en el So, tendríamos que forzosamente
+          resolverla hacia arriba a la nota tónica. </p>
+        <p>Por ello, los más sensato es utilizar <u>dos reglas aplicables para
+            cada caso</u>: cuando ocurren en tonalidades mayores y cuando
+          ocurren en las tonalidades menores. </p>
+        <p>Si esta cadencia ocurre en tonalidades mayores, se tendrá que ver si
+          la sensible está en la So. Si así es el caso, ésta resuelve hacia
+          arriba a la nota tónica, el bajo sube y las demás bajan, tal y como
+          exige el enlace melódico. El acorde <b><i>vi</i></b> tendría su
+          tercera repetida, pero sonaría muy estable. No hay ninguna regla rota
+          por hacer esto. Ahora bien, si no tenemos la sensible en la voz So, se
+          puede utilizar un enlace melódico estricto: el bajo sube las demás
+          bajan.</p>
+        <p>Ahora bien, si esta cadencia ocurre en tonalidades menores, sin
+          importar si la sensible está en la So o no, ésta resuelve hacia arriba
+          a la nota tónica, repitiendo la 3ra del acorde <b><i>VI</i></b>. Esto
+          se hace para evitar una 2da aumentada que ocurriría si siguiésemos el
+          patrón del enlace melódico. Al hacer este movimiento, no se rompe
+          ninguna regla. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj5-1.png"
+          height="auto" width="100%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win5">pulsa aquí</a> </p>
+      </div>
+      <div id="Win5" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin5" title="CloWin5" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmICadenciasEj5.mp4"
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="container"> <br class="">
+        <br class="">
+        <br class="">
+        <br class="">
+        <br class="">
+        <br class="">
+        <h1>Cadencias </h1>
+        <div style="text-align:justify;">
+          <p>Una <b><i>cadencia</i></b> es cuando una progresión musical llega
+            a su finalización. Siempre tiene por objetivo por proveer una pausa
+            en las frases musicales. Son como las diversas puntuaciones dentro
+            de un párrafo escrito; sirven para separar cada idea, o en su caso,
+            cada oración. </p>
+          <p>Así como algunos signos de puntuación son más conclusivos que
+            otros, así también existen cadencias conclusivas y otras
+            suspensivas. Veamos algunas de ellas. </p>
+        </div>
+        <h3>Cadencias Conclusivas </h3>
+        <div style="text-align:justify;">
+          <p>Las cadencias conclusivas tiene por objetivo el concluir una frase
+            musical. Existen tres tipos de cadencias: la <b><i>perfecta, la <b><i>imperfecta</i></b></i></b>
+            y la <b><i>plagal</i></b>. </p>
+        </div>
+        <h4>Cadencia Perfecta </h4>
+        <div style="text-align:justify;">
+          <p>La cadencia <b><i>perfecta</i></b> ocurre cuando se va de un
+            acorde V (dominante) al I (Tónica). Sin embargo, ambos acordes <u>deben
+              estar</u> en estado fundamental, siguiendo un enlace armónico o
+            melódico. Esta cadencia aplica tanto para tonalidades mayores como
+            menores; sólo hay que recordar que el acorde V en las tonalidades
+            menores se alteran para forzar la existencia de la sensible. </p>
+        </div>
+        <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj1-1.png"
+            height="auto" width="90%"> </div>
+        <div style="text-align: center;">
+          <p>Para escuchar este ejemplo, <a href="#Win1">pulsa aquí</a> </p>
+        </div>
+        <div id="Win1" class="modalDialog">
+          <div style="text-align: center;"> <a href="#CloWin1" title="CloWin1"
+              class="closeWin">X</a> <video controls="controls" width="100%"> <source
+                src="sound/ArmICadenciasEj1.mp4" type="video/mp4"> Your browser
+              does not support the video tag. </video> </div>
+        </div>
+        <br>
+        <br>
+        <h4>Cadencia imperfecta </h4>
+        <div style="text-align:justify;">
+          <p> La cadencia <b><i>imperfecta</i></b> es similar a la perfecta
+            puesto que ocurre cuando se utiliza un acorde V (dominante) y arriba
+            al I (tónica), sólo que alguno o ambos acordes están en inversión.
+            Por ello no suena tan conclusiva que la perfecta. Ocurre tanto en
+            tonalidades mayores como menores. </p>
+        </div>
+        <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj2-1.png"
+            height="auto" width="90%"> </div>
+        <div style="text-align: center;">
+          <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a> </p>
+        </div>
+        <div id="Win2" class="modalDialog">
+          <div style="text-align: center;"> <a href="#CloWin2" title="CloWin2"
+              class="closeWin">X</a> <video controls="controls" width="100%"> <source
+                src="sound/ArmICadenciasEj2.mp4" type="video/mp4"> Your browser
+              does not support the video tag. </video> </div>
+        </div>
+        <br>
+        <br>
+        <h4>Cadencia Plagal </h4>
+        <div style="text-align:justify;">
+          <p> Esta cadencia, la cadencia <b><i>plagal</i></b>, se caracteriza
+            por utilizar el acorde IV (subdominante)seguido por el acorde I
+            (tónica). Su sonido es un tanto conclusivo, pero no tanto como la
+            cadencia perfecta o imperfecta. </p>
+        </div>
+        <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj3-1.png"
+            height="auto" width="75%"> </div>
+        <div style="text-align: center;">
+          <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a> </p>
+        </div>
+        <div id="Win3" class="modalDialog">
+          <div style="text-align: center;"> <a href="#CloWin3" title="CloWin3"
+              class="closeWin">X</a> <video controls="controls" width="100%"> <source
+                src="sound/ArmICadenciasEj3.mp4" type="video/mp4"> Your browser
+              does not support the video tag. </video> </div>
+        </div>
+        <br>
+        <br>
+        <h3>Cadencias suspensivas </h3>
+        <div style="text-align:justify;">
+          <p> Las cadencias suspensiva tienen como objetivo concluir una frase
+            musical, pero dejando una 'puerta' abierta para seguir a otra frase
+            musical. Ninguna de estas cadencias pueden terminar ni concluir
+            definitivamente una pieza musical; no ofrecen un sonido tal. Por
+            ello, se llaman de esta manera. Hay dos de ellas: la <b><i>semicadencia</i></b>
+            ( o cadencia <b><i>media</i></b>) y la cadencia <b><i>rota</i></b>.
+          </p>
+        </div>
+        <h4>Semicadencia </h4>
+        <div style="text-align:justify;">
+          <p> La <b><i>semicadencia</i></b> es ocurre cuando algún acorde
+            anticipa el acorde V (dominante), y esta triada dominante suena
+            suspensiva. El sonido es de crear una tensión que permite seguir a
+            otra frase musical. Su sonido nos da un sentido de resolución, pero
+            nos deja con ganas de seguir escuchando más música. Se siente como
+            una 'coma' dentro de una oración escrita. </p>
+        </div>
+        <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj4-1.png"
+            height="auto" width="60%"> </div>
+        <div style="text-align: center;">
+          <p>Para escuchar este ejemplo, <a href="#Win4">pulsa aquí</a> </p>
+        </div>
+        <div id="Win4" class="modalDialog">
+          <div style="text-align: center;"> <a href="#CloWin4" title="CloWin4"
+              class="closeWin">X</a> <video controls="controls" width="100%"> <source
+                src="sound/ArmICadenciasEj4.mp4" type="video/mp4"> Your browser
+              does not support the video tag. </video> </div>
+        </div>
+        <br>
+        <br>
+        <h4>Cadencia rota </h4>
+        <div style="text-align:justify;">
+          <p> La cadencia <b><i>rota</i></b> tiene por propoósito el ofrecer
+            una alternativa suspensiva a la cadencia perfecta (o imperfecta). Es
+            decir, ésta ocurre cuando se va de un acorde V (dominante) a un
+            acorde <b><i>vi</i></b> (o <b><i>VI</i></b> en tonalidades
+            menores, ambas conocidas como <b><i>submediante</i></b>. En ambos
+            casos, nos dan un sonido de conclusión porque la nota sensible (3ra
+            de nuestro V) nos crea la expectación de escuchar nuestra nota
+            tónica. Esta nota tónica sí aparece, pero como la 3ra del acorde vi
+            (o VI en menores). </p>
+          <p>Sin embargo, su sonido nos da la impresión de una resolución, pero
+            nos demanda, nos exige seguir hasta llegar a una conclusión. De ahí
+            viene su cualidad suspensiva. </p>
+        </div>
+        <div style="text-align:justify;">
+          <p> Ahora bien, esta cadencia nos va a dar una dolor de cabeza si no
+            es que tomamos en cuenta algunos puntos: <i><u>1</u></i>) involucra
+            el acorde <b><i>vi</i></b> (o <b><i>VI</i></b>), el cual es un
+            acorde que no se supone que vayamos a ver en este semestre; <i><u>2</u></i>)
+            tendríamos que utilizar el enlace melódico para ejecutarlo, parecido
+            al enlace que se usa entre IV y V (o iv y V); <i><u>3</u></i>) si
+            utilizamos el enlace melódico en las tonalidades menores, podríamos
+            mover la nota sensible hacia abajo a una 2da aumentada, lo cual
+            sería ir en contra de las reglas que ya habíamos anticipado; <i><u>4</u></i>)
+            si escribimos nuestra sensible en el So, tendríamos que forzosamente
+            resolverla hacia arriba a la nota tónica. </p>
+          <p>Por ello, los más sensato es utilizar <u>dos reglas aplicables
+              para cada caso</u>: cuando ocurren en tonalidades mayores y cuando
+            ocurren en las tonalidades menores. </p>
+          <p>Si esta cadencia ocurre en tonalidades mayores, se tendrá que ver
+            si la sensible está en la So. Si así es el caso, ésta resuelve hacia
+            arriba a la nota tónica, el bajo sube y las demás bajan, tal y como
+            exige el enlace melódico. El acorde <b><i>vi</i></b> tendría su
+            tercera repetida, pero sonaría muy estable. No hay ninguna regla
+            rota por hacer esto. Ahora bien, si no tenemos la sensible en la voz
+            So, se puede utilizar un enlace melódico estricto: el bajo sube las
+            demás bajan.</p>
+          <p>Ahora bien, si esta cadencia ocurre en tonalidades menores, sin
+            importar si la sensible está en la So o no, ésta resuelve hacia
+            arriba a la nota tónica, repitiendo la 3ra del acorde <b><i>VI</i></b>.
+            Esto se hace para evitar una 2da aumentada que ocurriría si
+            siguiésemos el patrón del enlace melódico. Al hacer este movimiento,
+            no se rompe ninguna regla. </p>
+        </div>
+        <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmICadenciasEj5-1.png"
+            height="auto" width="100%"> </div>
+        <div style="text-align: center;">
+          <p>Para escuchar este ejemplo, <a href="#Win5">pulsa aquí</a> </p>
+        </div>
+        <div id="Win5" class="modalDialog">
+          <div style="text-align: center;"> <a href="#CloWin5" title="CloWin5"
+              class="closeWin">X</a> <video controls="controls" width="100%"> <source
+                src="sound/ArmICadenciasEj5.mp4" type="video/mp4"> Your browser
+              does not support the video tag. </video> </div>
+        </div>
+        <br>
+        <br>
+        <h3>Conclusión </h3>
+        <div style="text-align:justify;">
+          <p> Para terminar una frase musical, debemos utilizar una cadencia.
+            Podemos utilizar cualquiera de las que se describen a continuación.
+            Una buena combinación de ellas puede llevarnos a hacer mejores
+            composiciones. </p>
+          <ul>
+            <li><font size="+1">Cadencias Conclusivas</font>
+              <ol type="1">
+                <font size="+1">Cadencia Perfecta</font>
+              </ol>
+              <ol type="2">
+                <font size="+1">Cadencia Imperfecta</font>
+              </ol>
+              <ol type="3">
+                <font size="+1">Cadencia Plagal</font>
+              </ol>
+            </li>
+            <li><font size="+1">Cadencias Suspensivas</font>
+              <ol type="1">
+                <font size="+1">Semicadencia</font>
+              </ol>
+              <ol type="2">
+                <font size="+1">Cadencia Rota</font>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="cordova.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="js/jquery.easing.min.js"></script>
+      <!-- Custom Theme JavaScript -->
+      <script src="js/grayscale.js"></script> </div>
+  </body>
+</html>
