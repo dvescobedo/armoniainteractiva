@@ -60,6 +60,7 @@
           </li>
         </ul>
       </nav>
+      <br>
     </div>
     <div class="container"> <br>
       <br>
@@ -130,7 +131,7 @@
       </div>
       <div id="Win2" class="modalDialog">
         <div style="text-align: center;"> <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
-          <video controls="controls" width="100%"> <source src="sound/ArmIIFunciones%20Armonicas1.mp4"
+          <video controls="controls" width="100%"> <source src="sound/ArmIIFuncionesArmonicas1.mp4"
               type="video/mp4"> Your browser does not support the video tag. </video>
         </div>
       </div>
@@ -220,10 +221,11 @@
         </div>
       </div>
       <div style="text-align:justify;">
-        <p>El otro ejemplo claro de traida con función tónica es la <i><b>mediante</b></i>.
-          Este acorde comparte dos notas con la triada tónica. Ahora bien,
-          siempre se ha manejado en la Teoría TSD que esto ocurre <u><a href="#Win6">sólo
-              cuando está en estado fundamental.</a></u></p>
+        <p>El otro ejemplo claro de traida con función tónica es la <i><b>mediante</b></i>,
+          representada por el número romano tres (<i><b>iii</b></i>, o <b><i>III</i></b>
+          en tonalidades menores). Este acorde comparte dos notas con la triada
+          tónica. Ahora bien, siempre se ha manejado en la Teoría TSD que esto
+          ocurre <u><a href="#Win6">sólo cuando está en estado fundamental.</a></u></p>
       </div>
       <div id="Win6" class="modalDialog">
         <div> <a href="#CloWin6" title="CloWin6" class="closeWin">X</a>
@@ -251,9 +253,9 @@
           en tonalidades menores), y por supuesto el <b><i>vii°</i></b> en
           ambas tonalidades menores y mayores. </p>
         <p>La mediante en primera inversión suena muy similar a la dominante
-          puesto que comnparte dos notas con ella. Ahora bien, siendo honestos,
-          <u>no es nada común utilizar</u> el iii<sup>6</sup> como sustituto de
-          la dominante. Sin embargo, teóricamente sí suena muy parecidos ambos
+          puesto que comparte dos notas con ella. Ahora bien, siendo honestos, <u>no
+            es nada común utilizar</u> el iii<sup>6</sup> como sustituto de la
+          dominante. Sin embargo, teóricamente sí suenan muy parecidos ambos
           acordes. </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIIFuncionesArmonicas6-1.png"
@@ -271,8 +273,8 @@
         <p>En las tonalidades menores, si recordamos, no existe la nota <b><i>sensible</i></b>
           de manera natural. Sólo ocurre cuando se altera el 7mo grado de la
           escala. Por lo tanto, el III en primera inversión carece de 3a nota
-          sensible. Sin embargo, debido a la alteración que se necesita para
-          poder compartir dos notas con la triada dominante, el resultado es un
+          sensible. Si tal 7mo grado de la escala es alterado, el acorde termina
+          compartiendo dos notas con la triada dominante. El resultado es un
           acorde aumentado en primera inversión. En tal caso, se escribe con un
           número romano tres y el número seis que designa que está en primera
           inversión y le añadimos el símbolo de suma: <b><i>III+<sup>6</sup></i></b>.
@@ -292,12 +294,14 @@
       </div>
       <div style="text-align:justify;">
         <p>El otro ejemplo de acorde secundario que se usa para sustituir a la
-          triada dominante es el <i><b>vii°</b></i>. Este acorde, puesto que es
-          disminuido, se tiene que escribir en primera inversión, y se debe de
-          repetir la 3ra (es decir, la nota que se encuentre en el <b><i>Ba</i></b>).
-          Sin embargo, este acorde se utiliza primariamente como un sustituto
-          del <b><i>V<sup>6</sup><sub>4</sub></i></b> dentro de un giro de
-          paso.</p>
+          triada dominante es el <i><b>vii°</b></i>, conocida como la triada <b><i>sensible</i></b>.
+          Este acorde, puesto que es disminuido, se tiene que escribir en
+          primera inversión, y se debe de repetir la 3ra (es decir, la nota que
+          se encuentre en el <b><i>Ba</i></b>). Sin embargo, este acorde se
+          utiliza primariamente como un sustituto del <b><i>V<sup>6</sup><sub>4</sub></i></b>
+          dentro de un giro de paso, tomando en cuenta que en las tonalidades
+          menores se tiene que alterar el 7mo grado para poder obtener la
+          sensible.</p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIIFuncionesArmonicas8-1.png"
           height="auto" width="70%"> </div>
@@ -330,7 +334,8 @@
         <p>Las funciones armónicas y los acordes que pueden utilizarse para
           sustituir la triada tónica, subdominante o dominante son:</p>
         <ul>
-          <li><font size="+1">Tónica (I)</font></li>
+          <li><font size="+1">Tónica (I) se sustituye por ...<br>
+            </font></li>
           <ul>
             <li><font size="+1">iii ( o III en menor) en estado fundamental</font></li>
             <li><font size="+1">vi (o VI en menor) en estado fundamental<br>
@@ -339,12 +344,14 @@
         </ul>
         <font size="+1"></font>
         <ul>
-          <li><font size="+1">Subdominante (IV)</font></li>
+          <li><font size="+1">Subdominante (IV) se sutituye por ...<br>
+            </font></li>
           <ul>
             <li><font size="+1">ii<sup>6</sup> (ii°<sup>6</sup> en menor)<br>
               </font></li>
           </ul>
-          <li><font size="+1">Dominante (V)</font></li>
+          <li><font size="+1">Dominante (V) se sustituye por ...<br>
+            </font></li>
           <ul>
             <li><font size="+1">iii<sup>6</sup> (o III+<sup>6</sup> en menor)</font></li>
             <li><font size="+1">vii°<sup>6</sup><br>
