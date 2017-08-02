@@ -18,7 +18,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via  -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
     <div id="header" class="navbar navbar-custom navbar-fixed-top">
@@ -45,8 +46,7 @@
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
               II<b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="ArmIIFuncionesArmonicas.html">Funciones Armónicas</a></li>
-              <li><a href="ArmIIAcordes7ma.html">Acordes de 7ma y V<sup>7</sup></a></li>
+             <li><a href="ArmIIFuncionesArmonicas.html">Funciones Armónicas</a></li>
             </ul>
           </li>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
@@ -85,37 +85,48 @@
           primer caso, el V (dominante) tiene la tendencia a ir al I (tónica).
           También, el I puede ir directamente al V, y entonces volver al I. </p>
       </div>
-      <h3>I⇆IV </h3>
+      <h3>I⇆IV
+      </h3>
       <div align="justify">
         <p>Recordemos que debemos seguir varias reglas para el enlace de ambos
           acordes. Dos capítulos anteriores, estuvimos viendo los enlaces entre
-          I y IV. Sin embargo, ahora el punto es ver cómo ocurren dichos enlaces
-          en una progresión sencilla de I→IV→I. En tal caso, recordemos que para
-          cada enlace, podemos escoger entre dos tipos de enlace: <a href="#Win1"><b><i>enlace
-                armónico</i></b> o <b><i>enlace melódico</i></b></a>. </p>
+          I y IV.
+          Sin embargo, ahora el punto es ver cómo ocurren dichos enlaces en una
+          progresión sencilla de I→IV→I. En tal caso, recordemos que para cada
+          enlace, podemos escoger entre dos tipos de enlace: <a href="#Win1"><b><i>enlace
+                armónico</i></b> o <b><i>enlace melódico</i></b></a>.
+        </p>
       </div>
       <div id="Win1" class="modalDialog">
-        <div> <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
+        <div>
+          <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
           <p>En este apartado, alternaremos el uso de <b><i>enlace armónico</i></b>
             y <b><i>enlace melódico</i></b> para hacer que la progresión suene
-            más interesante. </p>
+            más interesante.
+          </p>
           <p>Ahora bien, cuando hablamos de uns <i><b>enlace melódico</b></i>,
             nos referimos a que entre los dos acordes se encuentra por lo menos
-            una nota que es común entre acordes. En tal caso, esa nota común se
-            repite o mantiene, y las demás forzosamente habrán de moverse. </p>
+            una nota
+            que es común entre acordes. En tal caso, esa nota común se repite o
+            mantiene, y las demás forzosamente habrán de moverse. </p>
         </div>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIProgArmEj1-1.png"
 
-          height="auto" width="60%"> </div>
+          height="auto" width="60%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win3" class="modalDialog">
-        <div style="text-align: center;"> <a href="#CloWin3" title="CloWin3" class="closeWin">X</a>
+        <div style="text-align: center;">
+          <a href="#CloWin3" title="CloWin3" class="closeWin">X</a>
           <video controls="controls" width="100%"> <source src="sound/ArmIProgArmEj1.mp4"
 
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
@@ -124,19 +135,25 @@
         <p>Observemos que en el ejemplo anterior, cuando vamos del I al IV,
           utilizamos un enlace armónico; es decir, utilizamos la nota común como
           ancla para dejar que las demás se muevan por segunda. El bajo se mueve
-          una 4ta hacia arriba. </p>
+          una 4ta hacia arriba.
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIProgArmEj2-1.png"
 
-          height="auto" width="60%"> </div>
+          height="auto" width="60%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win4">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win4">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win4" class="modalDialog">
-        <div style="text-align: center;"> <a href="#CloWin4" title="CloWin4" class="closeWin">X</a>
+        <div style="text-align: center;">
+          <a href="#CloWin4" title="CloWin4" class="closeWin">X</a>
           <video controls="controls" width="100%"> <source src="sound/ArmIProgArmEj2.mp4"
 
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
@@ -144,61 +161,80 @@
       <div align="justify">
         <p>Observemos que ahora en este ejemplo, utilizamos un enlace melódico
           primero y luego uno armónico. La progresión termina sonando bien por
-          el hecho de que las voces se mueven fluidamente. </p>
+          el hecho de que
+          las voces se mueven fluidamente.
+        </p>
         <p>En teoría, el enlace de I y IV puede perpetuarse según sea necesario,
           o según sea el gusto del compositor. Nada realmente puede llevarnos a
-          interrumpirlo mas que el movimiento hacia V. </p>
+          interrumpirlo mas que el movimiento
+          hacia V.
+        </p>
       </div>
-      <h3>V⇆I </h3>
+      <h3>V⇆I
+      </h3>
       <div align="justify">
         <p>Dos capítulos atrás, pudimos ver cómo es que ambos acordes pueden ser
           enlazados. De hecho, la forma en cómo se enlazan I y IV es la misma a
-          como se enlazan I y V. Por ello, omitiremos comentarios sobre cómo se
-          enlazan ambos y nos dirigiremos a describir en la siguiente partitura
-          la progresión I⇆V. Tal y como I⇆IV se llega a romper cuando optamos
-          dirigirnos a V, de igual manera, la progresión I⇆V parece ser perpetua
-          hasta que se termina la pieza musical, o hasta que optamos a ir a IV
-          después de llegar a I. </p>
+          como se enlazan I y V. Por ello,
+          omitiremos comentarios sobre cómo se enlazan ambos y nos dirigiremos a
+          describir en la siguiente partitura la progresión I⇆V. Tal y como I⇆IV
+          se llega a romper cuando
+          optamos dirigirnos a V, de igual manera, la progresión I⇆V parece ser
+          perpetua hasta que se termina la pieza musical, o hasta que optamos a
+          ir a IV después de llegar a I.
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIProgArmEj3-1.png"
 
-          height="auto" width="80%"> </div>
+          height="auto" width="80%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win2" class="modalDialog">
-        <div> <a href="#CloWin2" title="CloWin2" class="closeWin">X</a> <video
+        <div>
+          <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmIProgArmEj3.mp4"
 
-            controls="controls" width="100%"> <source src="sound/ArmIProgArmEj3.mp4"
-
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
       <br>
-      <h3>IV→V </h3>
+      <h3>IV→V
+      </h3>
       <div align="justify">
         <p>Recordemos que, según se explico dos capítulos anteriores, cuando
           enlacemos IV y V, forzosamente tendremos que usar enlace melódicos. En
-          este caso, el bajo sube, las demás bajan. </p>
+          este caso, el bajo sube, las demás bajan.
+        </p>
         <p>Tomando esto en cuenta, entonces ya podemos hacer una pequeña
-          progresión armónica [I⇆IV] → [V⇆I]. </p>
+          progresión armónica [I⇆IV] → [V⇆I].
+        </p>
       </div>
-      <h3>Ejemplos </h3>
+      <h3>Ejemplos
+      </h3>
       <br>
       <br>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIProgArmEj4-1.png"
 
-          height="auto" width="80%"> </div>
+          height="auto" width="80%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win5">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win5">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win5" class="modalDialog">
-        <div> <a href="#CloWin5" title="CloWin5" class="closeWin">X</a> <video
+        <div>
+          <a href="#CloWin5" title="CloWin5" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmIProgArmEj4.mp4"
 
-            controls="controls" width="100%"> <source src="sound/ArmIProgArmEj4.mp4"
-
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
@@ -206,12 +242,14 @@
       <div align="justify">
         <p>Observemos el ejemplo anterior. La progresión empieza en I, sigue a
           IV y luego V. Entonces, vuelve a I pero sigue a IV y vuelve otra vez a
-          I. Esta progresión se sujeta al diagrama [I⇆IV] → [V⇆I]. </p>
+          I. Esta progresión se sujeta al diagrama [I⇆IV] → [V⇆I].
+        </p>
         <p>Notemos que en algunos casos, ya sea entre I y IV o entre V y I,
           utilizamos enlaces armónicos. Esto es, aprovechamos la nota común para
-          mantenerla, y sólo movemos las voces restantes. Entre IV y V
-          utilizamos enlace melódico, subiendo el bajo y bajando las demás
-          voces. </p>
+          mantenerla, y sólo movemos
+          las voces restantes. Entre IV y V utilizamos enlace melódico, subiendo
+          el bajo y bajando las demás voces.
+        </p>
       </div>
     </div>
     <!-- jQuery -->

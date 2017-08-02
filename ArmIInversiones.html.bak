@@ -18,7 +18,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via  -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
     <div id="header" class="navbar navbar-custom navbar-fixed-top">
@@ -46,7 +47,6 @@
               II<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="ArmIIFuncionesArmonicas.html">Funciones Armónicas</a></li>
-              <li><a href="ArmIIAcordes7ma.html">Acordes de 7ma y V<sup>7</sup></a></li>
             </ul>
           </li>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
@@ -79,16 +79,18 @@
           diferente a su fundamental, se le llama <b><i>inversión</i></b>.</p>
         <p>Las triadas simples pueden utilizar dos inversiones diferentes, <i><b>primera
               inversión</b></i> y <i><b>segunda inversión</b></i>. La primera
-          ocurre cuando el bajo toca la 3ra del acorde, y la segunda ocurre
-          cuando en el bajo se sitúa la 5ta del acorde. Si hubiesen de incluirse
-          estos acordes en un cifrado armónico, se escribirían como <b><i>C</i></b>
-          si está en estado fundamental, <b><i>C/E</i></b> si está en primera
-          inversión y <b><i>C/G</i></b> si está en segunda inversión.</p>
+          ocurre cuando
+          el bajo toca la 3ra del acorde, y la segunda ocurre cuando en el bajo
+          se sitúa la 5ta del acorde. Si hubiesen de incluirse estos acordes en
+          un cifrado armónico, se escribirían como <b><i>C</i></b> si está en
+          estado fundamental, <b><i>C/E</i></b> si está en primera inversión y
+          <b><i>C/G</i></b> si está en segunda inversión.</p>
       </div>
       <br>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj1-1.png"
 
-          height="auto" width="65%"> </div>
+          height="auto" width="65%">
+      </div>
       <br>
       <br>
       <div align="justify">
@@ -96,16 +98,19 @@
           el que está en primera inversión y el que está en segunda inversión,
           se siguen representando como <i><b>I</b></i> para darnos a entender
           que siguen siendo la triada tónica, o primer grado, en la tonalidad de
-          C Mayor. Sin embargo, los acordes en inversiones incluyen unos números
-          para distinguirse entre ellos. </p>
+          C Mayor. Sin embargo,
+          los acordes en inversiones incluyen unos números para distinguirse
+          entre ellos. </p>
         <p>Los acordes en primera inversión se representan con el superíndice <b><i>6</i></b>
           (<sup><b><i>6</i></b></sup>), aunque algunas pocas veces también se
           puede representar por el número superíndice <b><i>6</i></b> y el
           subíndice <b><i>3</i></b> (<b><i><sup>6</sup><sub>3</sub></i></b>).
           En cambio, los acordes en segunda inversión se representan con el
           superíndice <b><i>6</i></b> y el subíndice <b><i>4</i></b> (<b><i><sup>6</sup><sub>4</sub></i></b>).
-          </p> </div>
-      <h3>1era Inversión </h3>
+        </p>
+      </div>
+      <h3>1era Inversión
+      </h3>
       <div align="justify">
         <p>Si hubiesemos de escribir el acorde en primera inversión a cuatro
           voces, entonces algunas reglas habrían de seguirse. Por ejemplo,
@@ -122,59 +127,75 @@
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj2-1.png"
 
-          height="auto" width="70%"> </div>
+          height="auto" width="70%">
+      </div>
       <br>
       <br>
-      <h3>2da Inversión </h3>
+      <h3>2da Inversión
+      </h3>
       <div align="justify">
         <p>Los acordes en segunda inversión a cuatro voces <u>casi siempre</u>
           se escriben repitiendo la 5ta del acorde, que casualmente es la misma
-          nota que se encuentra en el <b><i>Ba</i></b>. Es decir, se puede ver
-          de dos formas: 1) Se repite la 5ta del acorde, o 2) se repite la nota
-          en el <b><i>Ba</i></b>. </p>
+          nota
+          que se encuentra en el <b><i>Ba</i></b>. Es decir, se puede ver de
+          dos formas: 1) Se repite la 5ta del acorde, o 2) se repite la nota en
+          el <b><i>Ba</i></b>.
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj3-1.png"
 
-          height="auto" width="55%"> </div>
+          height="auto" width="55%">
+      </div>
       <br>
       <br>
       <div align="justify">
         <p>Generalmente, los acordes en segunda inversión son transitorios. Es
           decir, no pueden ser seguidos por otro acorde en segunda inversión;
-          tiene que ser seguidos y anticipado por un acorde en estado
-          fundamental o en primera inversión. </p>
+          tiene
+          que ser seguidos y anticipado por un acorde en estado fundamental o en
+          primera inversión.
+        </p>
       </div>
-      <h3>Giro de Paso </h3>
+      <h3>Giro de Paso
+      </h3>
       <div align="justify">
         <p>El <b><i>giro de paso</i></b> es un recurso de composición en el
           cual dos voces dentro de un acorde intercambian lugares entre si. Esto
           ocurre entre las voces que tocan la fundamental y la tercera de la
           misma. Sin embargo, este intercambio de notas ocurren de manera
-          escalar, por lo cual es necesario incluir un acorde que repita esta
-          voz. </p>
+          escalar, por lo cual
+          es necesario incluir un acorde que repita esta voz. </p>
         <p>Por la naturaleza del intercambio de voces, la práctica común es
           utilizarlo para ir de un acorde en estado fundamental a un acorde en
           primera inversión (o viceversa), enlazando un acorde en segunda
           inversión entre ambos acordes. Sólo así se evitan parelelismos
-          prohibidos y demás. </p>
+          prohibidos y demás.
+        </p>
         <p>Ahora bien, como este semestre sólo estamos lidiando con acordes
           primarios, eso nos deja sólo nos deja dos opciones para las tonalidad
-          mayores y sólo dos para tonalidades menores: I→V<sup>6</sup><sub>4</sub>→I<sup>6</sup>
+          mayores y sólo
+          dos para tonalidades menores: I→V<sup>6</sup><sub>4</sub>→I<sup>6</sup>
           y IV→I<sup>6</sup><sub>4</sub>→IV<sup>6</sup> en tonalidades mayores,
           i→V<sup>6</sup><sub>4</sub>→i<sup>6</sup> y iv→i<sup>6</sup><sub>4</sub>→iv<sup>6</sup>
-          en tonalidades menores. </p>
+          en tonalidades menores.
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj4-1.png"
 
-          height="auto" width="95%"> </div>
+          height="auto" width="95%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win1">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win1">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win1" class="modalDialog">
-        <div style="text-align: center;"> <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
+        <div style="text-align: center;">
+          <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
           <video controls="controls" width="100%"> <source src="sound/ArmIInversionesEj4.mp4"
 
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
@@ -182,73 +203,94 @@
       <div style="text-align: justify;">
         <p>Si observamos, podemos reconocer las dos voces que intercambian notas
           y como es que el acorde intermedio casualmente repite la misma nota
-          cuando ambas se mueven por pasos; en lo que una se mueve hacia arriba
-          desde la fundamental hasta la tercera, la otra se mueve en sentido
-          contrario. Las voces que completan el acorde también siguen un patrón.
+          cuando ambas se
+          mueven por pasos; en lo que una se mueve hacia arriba desde la
+          fundamental hasta la tercera, la otra se mueve en sentido contrario.
+          Las voces que completan el acorde
+          también siguen un patrón.
         </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj5-1.png"
 
-          height="auto" width="60%"> </div>
+          height="auto" width="60%">
+      </div>
       <br>
       <br>
       <div style="text-align:justify;">
         <p>Veamos que el <b><i>So</i></b> lleva la 5ta del acorde, y que esa
           misma nota es común en los siguientes acordes; como ilustración, se
-          ligan dichas notas. También, el <b><i>Te</i></b> lleva la fundamental
-          repetida en el primer acorde, baja una segunda (en este caso, la
-          sensible) y luego vuelve a subir a la fundamental. Si seguimos este
-          patrón, podemos contruir un giro de paso de manera muy fácil, sea en
-          tonalidades mayores o menores. </p>
+          ligan dichas notas. También, el <b><i>Te</i></b> lleva la
+          fundamental repetida en el primer acorde, baja una segunda (en este
+          caso, la sensible) y luego vuelve a subir a la fundamental. Si
+          seguimos este patrón, podemos contruir
+          un giro de paso de manera muy fácil, sea en tonalidades mayores o
+          menores.
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj6-1.png"
 
-          height="auto" width="60%"> </div>
+          height="auto" width="60%">
+      </div>
       <br>
       <br>
       <div style="text-align:justify;">
         <p>Como ya se había mencionado, este patrón también sirve para hacer un
-          giro de paso en base al acorde IV (o iv en tonalidades menores). </p>
+          giro de paso en base al acorde IV (o iv en tonalidades menores).
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj7-1.png"
 
-          height="auto" width="95%"> </div>
+          height="auto" width="95%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win2" class="modalDialog">
-        <div style="text-align: center;"> <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
+        <div style="text-align: center;">
+          <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
           <video controls="controls" width="100%"> <source src="sound/ArmIInversionesEj7.mp4"
 
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <div style="text-align:justify;">
         <p>Ahora observemos cómo se utiliza el recurso del giro de paso para
           componer una pequeña progresión armónica, basándonos en el esquema
-          [I⇆IV]→[V⇆I]. </p>
+          [I⇆IV]→[V⇆I].
+        </p>
       </div>
       <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIInversionesEj8-1.png"
 
-          height="auto" width="95%"> </div>
+          height="auto" width="95%">
+      </div>
       <div style="text-align: center;">
-        <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a> </p>
+        <p>Para escuchar este ejemplo, <a href="#Win3">pulsa aquí</a>
+        </p>
       </div>
       <div id="Win3" class="modalDialog">
-        <div style="text-align: center;"> <a href="#CloWin3" title="CloWin3" class="closeWin">X</a>
+        <div style="text-align: center;">
+          <a href="#CloWin3" title="CloWin3" class="closeWin">X</a>
           <video controls="controls" width="100%"> <source src="sound/ArmIInversionesEj8.mp4"
 
-              type="video/mp4"> Your browser does not support the video tag. </video>
+              type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       <br>
       <br>
-      <h3>Conclusión </h3>
+      <h3>Conclusión
+      </h3>
       <div style="text-align:justify;">
         <p>Como vemos, los acordes en inversión nos dan la posibilidad de hacer
           que una progresión con sólo acordes primarios pueda sonar mucho más
-          interesante , y permite que el bajo tenga una movilidad más
-          interesante. Por ello, podemos seguir los siguientes puntos: </p>
+          interesante
+          , y permite que el bajo tenga una movilidad más interesante. Por ello,
+          podemos seguir los siguientes puntos:
+        </p>
         <ul>
           <li><font size="+1">Un acorde es estado fundamental es cuando el bajo
               tiene la fundamental</font></li>

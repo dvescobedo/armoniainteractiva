@@ -45,7 +45,6 @@
               II<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="ArmIIFuncionesArmonicas.html">Funciones Armónicas</a></li>
-              <li><a href="ArmIIAcordes7ma.html">Acordes de 7ma y V<sup>7</sup></a></li>
             </ul>
           </li>
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
@@ -69,10 +68,62 @@
       <br class="">
       <br class="">
       <br class="">
-      <h2 class="">Bienvenido</h2>
-      <p class="">Para navegar por la aplicación, asegúrate de utilizar la barra
-        que se encuentra encima. Selecciona el nombre de tu clase para que te
-        lleve al menú del material por temas semestrales.</p>
+      <h1>Acordes de 7ma </h1>
+      <div style="text-align:justify;">
+        <p>En los capítulos anteriores hemos definido lo que es el concepto de <i><b>triada</b></i>.
+          Si recordamos, le llamamos triada a cualquier armonía que incluya tres
+          notas, separadas cada una de la otra por una 3ra. Sin embargo, también
+          existen los <i><b>acordes de 7ma</b></i>. Estos acordes, en realidad,
+          son triadas a la cual se le añade una nota una 7ma arriba de la nota
+          fundamental. Es decir, en vez de ser creadas por tres notas, estas
+          triadas con 7ma tienen cuatro notas. Y si observamos detenidamente,
+          podemos notar que la 7ma se encuentra una 3ra arriba de la 5ta de
+          acorde. Veamos cómo se ven los diferentes acordes dentro de una
+          tonalidad.</p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIIAcordes7ma1-1.png"
+
+          height="auto" width="80%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win1">pulsa aquí</a> </p>
+      </div>
+      <div id="Win1" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin1" title="CloWin1" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmIIAcodes7ma1.mp4"
+
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
+      <div style="text-align:justify;">
+        <p>Veamos que cada uno de ellos tiene un símbolo único para
+          identificarlo, en el cual se especifíca cual de los grados es, y
+          entonces se añade el número siete para hacernos saber que es una
+          triada con 7ma. Sin embargo, por este semestre, sólo analizaremos uno
+          de estos acordes: la triada dominante con 7ma.</p>
+      </div>
+      <h3> Dominante con 7ma (V<sup>7</sup></h3>
+      <div style="text-align:justify;">
+        <p>Analicemos la estructura del acorde <i><b>V7</b></i>. Si observamos,
+          este acorde mantiene las notas de la triada <i><b>dominante</b></i>,
+          pero incluye una nota una 7ma menor (<b><i>7m</i></b>) arriba de la
+          fundamental. Esto creará el sonido de un <b><i>tritono </i></b>por
+          el intervalo creado entre la 3ra y la 7ma de acorde. Ese intervalo es
+          una 5ta disminuida (<b><i>5d</i></b>). Este sonido crea una tensión
+          especial que demanda resolución en el siguiente acorde. </p>
+      </div>
+      <div style="text-align: center;" class="musicexample-section"> <img src="img/ArmIIAcordes7ma2-1.png"
+
+          height="auto" width="35%"> </div>
+      <div style="text-align: center;">
+        <p>Para escuchar este ejemplo, <a href="#Win2">pulsa aquí</a> </p>
+      </div>
+      <div id="Win2" class="modalDialog">
+        <div style="text-align: center;"> <a href="#CloWin2" title="CloWin2" class="closeWin">X</a>
+          <video controls="controls" width="100%"> <source src="sound/ArmIIAcodes7ma2.mp4"
+
+              type="video/mp4"> Your browser does not support the video tag. </video>
+        </div>
+      </div>
     </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
