@@ -29,7 +29,7 @@
           Interactiva </a> </div>
       <nav class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li> <a href="AppPrincipal.html">Inicio App</a> </li>
+          
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Armonía
               I<b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -74,6 +74,12 @@
         que se encuentra encima. Selecciona el nombre de tu clase para que te
         lleve al menú del material por temas semestrales.</p>
     </div>
+	<div id="embed-container"></div>
+<div class="embed-example-ctas">
+			<button id="export-xml" class="btn-cta-site">Export to MusicXML</button>
+		</div>
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -83,6 +89,47 @@
     <script src="js/jquery.easing.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    
+    <!-- FLAT -->
+	<script src="https://prod.flat-cdn.com/embed-js/v1.1.0/embed.min.js"></script>
+<script>
+  var container = document.getElementById('embed-container');
+  // The embed configuration parameters
+  var embed = new Flat.Embed(container, {
+    // The score hosted on Flat we use here as template.
+    // You can also use `embed.loadMusicXML(file)` to load your files on the fly
+    score: '5ecd39bfd100d157c6f7437f',
+    height: "500px",
+	embedParams: {
+      mode: 'edit',
+      appId: '59e7684b476cba39490801c2',
+      // Simple customizations
+      branding: false,
+      controlsPosition: 'bottom',
+    }
+  });
+
+// Helper function to force downloading the exported file
+var exportFile = function(buffer, mimeType, ext) {
+  var blobUrl = window.URL.createObjectURL(
+    new Blob([buffer], {
+      type: mimeType
+    })
+  );
+  var a = document.createElement("a");
+  a.href = blobUrl;
+  a.download = "exported-score." + ext;
+  document.body.appendChild(a);
+  a.style = "display: none";
+  a.click();
+  a.remove();
+};
+
+  // Export the file when we click on the button
+document.getElementById("export-xml").addEventListener("click", function() {
+  embed.getMusicXML({ compressed: true }).then(function(buffer) {
+    exportFile(buffer, "application/vnd.recordare.musicxml+xml", "mxl");
+  });
+});
+</script>
   </body>
 </html>
