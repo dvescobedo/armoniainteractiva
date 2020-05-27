@@ -97,16 +97,17 @@
   var embed = new Flat.Embed(container, {
     // The score hosted on Flat we use here as template.
     // You can also use `embed.loadMusicXML(file)` to load your files on the fly
-    score: '5ecd39bfd100d157c6f7437f',
-    height: "500px",
-	embedParams: {
+     score: '5ecd39bfd100d157c6f7437f',
+     height: "500px",
+	 embedParams: {
       mode: 'edit',
-      appId: '59e7684b476cba39490801c2',
+    //  appId: '59e7684b476cba39490801c2',
       // Simple customizations
       branding: false,
       controlsPosition: 'bottom',
-    }
-  });
+ }
+ });
+
 
 // Helper function to force downloading the exported file
 var exportFile = function(buffer, mimeType, ext) {
