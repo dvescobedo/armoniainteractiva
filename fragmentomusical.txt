@@ -1,0 +1,146 @@
+Fragmento de la pieza titulada 'Emociones, I. Melancolía'.
+
+Instrumento afinado en do.
+Compás de 4 sobre 4.
+Tempo de #108 BPM.
+Armadura de dos sostenidos.
+
+Compás 1,
+mesopiano,
+la4, negra con puntillo,
+fa sostenido, corchea,
+fa sostenido, negra,
+re, corchea,
+re, corchea, empieza ligadura de prolongación.
+
+Compás 2,
+re4, negra, termina ligadura de prolongación,
+mi, corchea,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, corchea, termina ligadura de prolongación,
+mi, negra,
+fa sostenido, corchea, empieza ligadura de prolongación.
+
+Compás 3,
+fa sostenido4, negra con puntillo, termina ligadura de prolongación,
+re, corchea,
+re, negra,
+la3, corchea,
+la, corchea, empieza ligadura de prolongación.
+
+Compás 4,
+la3, negra, termina ligadura de prolongación,
+fa sostenido4, corchea,
+sol, corchea,
+fa sostenido, corchea,
+mi, corchea,
+re, negra.
+
+Compás 5,
+la4, negra con puntillo,
+fa sostenido, corchea,
+fa sostenido, negra,
+re, corchea,
+re, corchea, empieza ligadura de prolongación.
+
+Compás 6,
+re4, negra, termina ligadura de prolongación,
+mi, corchea,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, corchea, termina ligadura de prolongación,
+mi, negra con puntillo.
+
+Compás 7,
+fa sostenido4, acciacatura,
+sol, negra con puntillo,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, negra, termina ligadura de prolongación,
+re, negra, empieza ligadura de prolongación.
+
+Compás 8,
+re4, redonda, termina ligadura de prolongación.
+
+Compás 9,
+la4, negra con puntillo,
+fa sostenido, corchea,
+fa sostenido, negra,
+re, corchea,
+re, corchea, empieza ligadura de prolongación.
+
+Compás 10,
+re4, negra, termina ligadura de prolongación,
+mi, corchea,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, corchea, termina ligadura de prolongación,
+mi, negra,
+fa sostenido, corchea, empieza ligadura de prolongación.
+
+Compás 11,
+fa sostenido4, negra con puntillo, termina ligadura de prolongación,
+re, corchea,
+re, negra,
+la3, corchea,
+la, corchea, empieza ligadura de prolongación.
+
+Compás 12,
+la3, negra, termina ligadura de prolongación,
+fa sostenido4, corchea,
+sol, corchea,
+fa sostenido, corchea,
+mi, corchea,
+re, negra.
+
+Compás 13,
+la4, negra con puntillo,
+fa sostenido, corchea,
+fa sostenido, negra,
+re, corchea,
+re, corchea, empieza ligadura de prolongación.
+
+Compás 14,
+re4, negra, termina ligadura de prolongación,
+mi, corchea,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, corchea, termina ligadura de prolongación,
+mi, negra con puntillo.
+
+Compás 15,
+fa sostenido4, acciacatura,
+sol, negra con puntillo,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, negra, termina ligadura de prolongación,
+re, negra, empieza ligadura de prolongación.
+
+Compás 16,
+re4, redonda, termina ligadura de prolongación.
+
+Compás 17, 
+fa sostenido4, acciacatura,
+sol, negra con puntillo,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, negra, termina ligadura de prolongación,
+re, negra, empieza ligadura de prolongación.
+
+Compás 18,
+re4, redonda, termina ligadura de prolongación.
+
+Compás 19,
+fa sostenido4, acciacatura,
+sol, negra con puntillo,
+fa sostenido, corchea, empieza ligadura de prolongación,
+fa sostenido, negra, termina ligadura de prolongación,
+mi, negra, empieza ligadura de prolongación.
+
+Compás 20,
+mi4, redonda, continua ligadura de prolongación.
+
+Compás 21,
+mi4, blanca con puntillo, termina ligadura de prolongación,
+re, corchea,
+do sostenido, corchea.
+
+Compás 22,
+re4, redonda, empieza ligadura de prolongación.
+
+Compás 23,
+re4, redonda, termina ligadura de prolongación.
